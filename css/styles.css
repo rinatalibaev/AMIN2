@@ -1,0 +1,265 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+.brandName {
+  font-size: 260%;
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+
+.brandCompanyType {
+  font-size: 60%;
+}
+
+#brandImg {
+  width: 70px;
+  margin-left: -25px;
+}
+
+#navbarSupportedContent {
+  font-size: 1.2em;
+  font-family: serif;
+}
+
+#navbarSupportedContent li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.hr_div_light{
+  height:2px;
+  background-color: #777777;
+}
+
+.hr_div_dark{
+  height:1px;
+  background-color: #656565;
+}
+
+.hr_div_ultra_thin_light {
+  height:1px;
+  background-color: #cccccc;
+  margin-bottom: 10px;
+}
+
+.hr_div_medium_thin_light {
+  height:1px;
+  background-color: #cccccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  text-indent: 20px;
+  text-align: justify;
+  color: #555555;
+}
+
+.content img {
+  float:left;
+  width: 20%;
+  margin-right: 7px;
+  margin-bottom: 7px;
+
+}
+
+#portfolio-content {
+  text-indent: 0;
+  text-align: left;
+}
+
+#portfolio-content p {
+  margin-left: 15px;
+}
+
+#portfolio-content img {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#portfolio-content .col-4, .col-md-6, .col-lg-4{
+  padding: 20px;
+}
+
+
+.breadcrumb {
+  font-size: 1.5em;
+}
+
+#yaImg img {
+  width: 100%;
+}
+
+.footer_menu, .footer_contacts {
+  background-color: #402b16;
+}
+
+.contacts {
+  text-indent: 0;
+  font-size: 1.25em;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* .brandName {
+    font-size: 310%;
+  }
+
+  .brandCompanyType {
+    font-size: 90%;
+  } */
+  .brandName {
+    font-size: 250%;
+  }
+
+  .brandCompanyType {
+    font-size: 70%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .brandName {
+    font-size: 380%;
+  }
+
+  .brandCompanyType {
+    font-size: 110%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .brandName {
+    font-size: 750%;
+    margin:-5px;
+    margin-top: -20px;
+    margin-bottom: -25px;
+  }
+
+  .brandCompanyType {
+    font-size: 180%;
+  }
+
+  #brandNameAndType {
+     margin-left: 5px;
+     margin-bottom: 15px;
+  }
+
+  #brandImg {
+    width: 170px;
+    margin-left: -10px;
+  }
+
+  .navbar-toggler-icon {
+    width: 6em;
+    height: 6em;
+  }
+
+  #navbarSupportedContent {
+    font-size: 4em;
+    font-family: serif;
+  }
+
+  .content {
+    text-indent: 30px;
+    font-size: 3em;
+  }
+
+  .content img {
+    float:left;
+    width: 40%;
+    margin-right: 25px;
+    margin-bottom: 7px;
+    margin-top: 16px;
+  }
+
+  .breadcrumb {
+    font-size: 3em;
+  }
+
+
+  #main-dropdown {
+    background-color: inherit;
+  }
+
+  #main-dropdown a {
+    font-size: 3em;
+    color: #aaaa9a;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
+  .brandName {
+    font-size: 420%;
+    /* margin:-5px; */
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  .brandCompanyType {
+    font-size: 100%;
+  }
+
+  #brandNameAndType {
+     margin-left: -90px;
+  }
+
+  #brandImg {
+    width: 85px;
+    margin-left: -10px;
+  }
+
+  .navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+  }
+
+  #navbarSupportedContent {
+    font-size: 2em;
+    font-family: serif;
+  }
+
+  #navbarSupportedContent li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #toggleButton {
+    margin-left: 60px;
+  }
+
+  .content {
+    font-size: 2em;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .brandName {
+
+  }
+
+  .brandCompanyType {
+
+  }
+
+  /* #sotrudniki h4 {
+    font-size: 5em;
+  } */
+
+  #brandImg {
+    margin-left: -20px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
